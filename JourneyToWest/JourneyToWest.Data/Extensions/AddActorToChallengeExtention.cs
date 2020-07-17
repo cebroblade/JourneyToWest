@@ -53,8 +53,8 @@ namespace JourneyToWest.JourneyToWest.Data.Extensions
             var response = new Dictionary<string, object>();
             response["result"] = listResult;
             response["totalPage"] = total;
-            //link to git hub
             return response;
+            //finish here
         }
 
         #endregion
