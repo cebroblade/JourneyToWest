@@ -12,7 +12,8 @@ namespace JourneyToWest.JourneyToWest.Data.ViewModels
         public string Name { get; set; }
         [JsonProperty("id")]
         public string[] Ids { get; set; }
-
+        [JsonProperty("username")]
+        public string username { get; set; }
     }
     public class ActorFieldsSort
     {

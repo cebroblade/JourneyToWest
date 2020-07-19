@@ -20,6 +20,10 @@ namespace JourneyToWest.JourneyToWest.Data.Extensions
             {
                 query = query.Where(s => s.ActorName.Contains(filter.Name));
             }
+            if(filter.username != null)
+            {
+                query = query.Where(s => s.Username.Equals(filter.username));
+            }
 
             return query;
         }
